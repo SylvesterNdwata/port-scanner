@@ -23,8 +23,5 @@ def create_parser():
     scanner(ip=args.ip, start_port=args.start_port, end_port=args.end_port)
 
 if __name__ == "__main__":
-    target = "127.0.0.1"
-    scanner(target, 1, 1024)
-else:
     create_parser()
 
